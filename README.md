@@ -1,9 +1,12 @@
 # Assignment 6: jQuery Portfolio
 
 **Name:** Sergey
+
 **Group:** SE-2540
-**Repo:**
-**GitHub Pages:**
+
+**Repo:** https://github.com/dar-key/jquery-portfolio
+
+**GitHub Pages:** https://dar-key.github.io/jquery-portfolio/
 
 ## Part 1. Getting Started with jQuery
 
