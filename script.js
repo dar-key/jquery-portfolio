@@ -50,3 +50,21 @@ $("#slide-up").click(function () {
 $("#slide-down").click(function () {
   $(".panel").slideDown();
 });
+
+$("#add-skill").click(function () {
+  var skill = $("#skill-input").val().trim();
+  if (skill === "") return alert("Enter a skill first");
+  $("#skill-list").append("<li>" + skill + "</li>");
+  $("#skill-input").val("");
+});
+
+$("#prepend-skill").click(function () {
+  var skill = $("#skill-input").val().trim();
+  if (skill === "") return alert("Enter a skill first");
+  $("#skill-list").prepend("<li>" + skill + "</li>");
+  $("#skill-input").val("");
+});
+
+$("#remove-skill").click(function () {
+  $("#skill-list li:last").remove();
+});
