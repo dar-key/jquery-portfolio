@@ -68,3 +68,7 @@ $("#prepend-skill").click(function () {
 $("#remove-skill").click(function () {
   $("#skill-list li:last").remove();
 });
+
+$("#change-link").click(function () {
+  $("#social").attr("href", "https://www.linkedin.com").text("LinkedIn");
+});
