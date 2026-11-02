@@ -16,3 +16,15 @@ $("#light").click(function () {
   $("body").css({ background: "#fff", color: "#000" });
   $("h1").css("color", "darkblue");
 });
+
+$("#hide").click(function () {
+  $("#status, #facts").hide();
+});
+
+$("#show").click(function () {
+  $("#status, #facts").show();
+});
+
+$("#toggle").click(function () {
+  $("#status, #facts").toggle();
+});
