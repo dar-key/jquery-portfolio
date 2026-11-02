@@ -28,3 +28,15 @@ $("#show").click(function () {
 $("#toggle").click(function () {
   $("#status, #facts").toggle();
 });
+
+$("#fade-in").click(function () {
+  $(".photo").fadeIn();
+});
+
+$("#fade-out").click(function () {
+  $(".photo").fadeOut();
+});
+
+$("#fade-toggle").click(function () {
+  $(".photo").fadeToggle();
+});
