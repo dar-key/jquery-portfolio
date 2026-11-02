@@ -40,3 +40,13 @@ $("#fade-out").click(function () {
 $("#fade-toggle").click(function () {
   $(".photo").fadeToggle();
 });
+
+$(".title").click(function () {
+  $(this).next(".panel").slideToggle();
+});
+$("#slide-up").click(function () {
+  $(".panel").slideUp();
+});
+$("#slide-down").click(function () {
+  $(".panel").slideDown();
+});
