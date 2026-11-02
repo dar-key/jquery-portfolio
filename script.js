@@ -79,3 +79,13 @@ $("#name-input").on("input", function () {
 $("#email-input").on("input", function () {
   $("#email-out").text($(this).val());
 });
+
+var barsOpen = false;
+
+$("#animate-skills").click(function () {
+  $(".fill").each(function () {
+    var width = barsOpen ? 0 : $(this).data("level") + "%";
+    $(this).animate({ width: width }, 1000);
+  });
+  barsOpen = !barsOpen;
+});

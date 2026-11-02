@@ -5,3 +5,14 @@
 .panel {
   display: none;
 }
+
+.bar {
+  width: 300px;
+  background: #ddd;
+}
+
+.fill {
+  width: 0;
+  height: 16px;
+  background: steelblue;
+}
