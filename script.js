@@ -72,3 +72,10 @@ $("#remove-skill").click(function () {
 $("#change-link").click(function () {
   $("#social").attr("href", "https://www.linkedin.com").text("LinkedIn");
 });
+
+$("#name-input").on("input", function () {
+  $("#name-out").text($(this).val());
+});
+$("#email-input").on("input", function () {
+  $("#email-out").text($(this).val());
+});
